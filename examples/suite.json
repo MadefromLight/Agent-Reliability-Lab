@@ -1,0 +1,1 @@
+[{"id":"identity","input":"agent","expected":"agent"},{"id":"stable-output","input":"hello","expected":"hello"}]
