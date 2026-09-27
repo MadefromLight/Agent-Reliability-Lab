@@ -1,0 +1,1 @@
+import test from "node:test";import assert from "node:assert/strict";import {evaluate} from "../src/index.js";test("evaluates",()=>{const r=evaluate([{id:"a",input:1,expected:1},{id:"b",input:1,expected:2}],x=>x);assert.equal(r.passed,1);assert.equal(r.failed,1)});
